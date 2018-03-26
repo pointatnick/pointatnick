@@ -1,4 +1,3 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 
@@ -11,4 +10,4 @@ def about(request):
 
 
 def projects(request):
-    return HttpResponse("the projects page")
+    return render(request, 'website/projects.html')
