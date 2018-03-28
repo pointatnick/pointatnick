@@ -1,7 +1,22 @@
-<h1>Home</h1>
-<a href="https://github.com/pointatnick">github</a>
-<a href="https://twitter.com/pointatnick">twitter</a>
-<p>nicholashma@gmail.com</p>
-<a href="/#">link_to_resume_placeholder</a>
-<a href="/about">About</a>
-<a href="/projects">Projects</a>
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'website/home.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+        </div>
+        <div class="content"></div>
+        <div class="menu">
+            <a href="https://github.com/pointatnick">github</a>
+            <a href="https://twitter.com/pointatnick">twitter</a>
+            <p>nicholashma@gmail.com</p>
+            <a href="/#">link_to_resume_placeholder</a>
+        </div>
+    </div>
+</body>
