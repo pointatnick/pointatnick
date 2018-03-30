@@ -3,27 +3,28 @@ body {
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
+	font-size: 2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 23px;
 }
 
 a {
     color: green;
     text-decoration: none;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
 }
 
 p {
-    font-family: Georgia, serif;
+    font-family: "Garamond", serif;
+    font-size: 0.875em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 23px; 
 }
-
-/*.container {
-    display: grid; 
-    grid-template-columns: 15% auto;
-    grid-template-rows: 10% auto 10%;
-    grid-gap: 10px;
-    background-color: #000000;
-    padding: 10px;
-}*/
 
 .container {
     position: relative;
