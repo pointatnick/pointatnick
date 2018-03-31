@@ -17,14 +17,6 @@ a {
     font-family: Helvetica Neue, sans-serif;
 }
 
-.header-main {
-    font-family: Helvetica Neue, sans-serif;
-    font-size: 4em;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-} 
-
 p {
     font-family: Palatino, serif;
     font-size: 0.875em;
@@ -32,6 +24,19 @@ p {
     font-variant: normal;
     font-weight: normal;
     line-height: 23px; 
+}
+
+.header-main {
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    padding: 0 0.125em 0 0;
+} 
+
+.header-item {
+    padding: 0 0.5em;
 }
 
 .container {
