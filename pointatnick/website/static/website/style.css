@@ -3,40 +3,31 @@ body {
 }
 
 h1 {
-    font-family: Helvetica Neue, sans-serif;
+    font-family: "Montserrat", sans-serif;
 	font-size: 2em;
-	font-style: normal;
-	font-variant: normal;
 	font-weight: 700;
 	line-height: 23px;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-    font-family: Helvetica Neue, sans-serif;
-}
-
 p {
-    font-family: Palatino, serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 0.875em;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
     line-height: 23px; 
 }
 
 .header-main {
-    font-family: Helvetica Neue, sans-serif;
-    font-size: 4em;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
     padding: 0 0.125em 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+    color: black;
+    text-decoration: none;
 } 
 
 .header-item {
     padding: 0 0.5em;
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -59,7 +50,6 @@ p {
 .navbar {
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: rgb(0, 255, 255);
     text-align: left;
     padding: 10px;
 }
@@ -67,7 +57,6 @@ p {
 .content {
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: rgb(255, 0, 0);
     text-align: left;
     padding: 10px;
 }
@@ -75,7 +64,6 @@ p {
 .footer {
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: rgb(255, 0, 255);
     text-align: center;
     padding: 10px;
 }
