@@ -5,9 +5,17 @@ def home(request):
     return render(request, 'website/home.html')
 
 
-def about(request):
-    return render(request, 'website/about.html')
+def archive(request):
+    return render(request, 'website/archive.html')
 
 
 def projects(request):
     return render(request, 'website/projects.html')
+
+
+def resume(request):
+    return render(request, 'website/resume.html')
+
+
+def about(request):
+    return render(request, 'website/about.html')
